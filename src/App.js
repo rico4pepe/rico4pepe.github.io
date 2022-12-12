@@ -62,9 +62,9 @@ console.log(calculate().tb, calculate().ta, calculate().ib);
             <Select placeholder = {0.00} options={options} className='myInputs added_space'  value = {tip} onChange={setTip} />
         </div>
         <br />
-        <button type='button' onClick={calculate}> Calculate .....</button>
+        {/* <button type='button' onClick={calculate}> Calculate .....</button> */}
 
-        <button type='button' onClick={resetForm}> Result .....</button>
+        <button type='button' onClick={resetForm}> Reset .....</button>
         </form>
 
         <div className = "result">
