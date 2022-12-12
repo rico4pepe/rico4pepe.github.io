@@ -51,15 +51,15 @@ console.log(calculate().tb, calculate().ta, calculate().ib);
         <form>
           <div className = "space_form_component">
           <label > Bill Amount:</label>
-            <input type="number" placeholder = {0.00} className='myInputs'  value = {bill} onChange={e => setBill(e.target.value)} />
+            <input type="number" placeholder = {0.00} className='myInputs'  value = {bill} onChange={e => setBill(e.target.value)} required/>
         </div>
         <div className = "space_form_component">
         <label> No of People:</label>
-            <input type='number'  className='myInputs'  value = {people} onChange={e => setPeople(e.target.value)} />
+            <input type='number'  className='myInputs'  value = {people} onChange={e => setPeople(e.target.value)} required/>
         </div>
         <div className = "space_form_component">
         <label> Tip:</label>
-            <Select placeholder = {0.00} options={options} className='myInputs added_space'  value = {tip} onChange={setTip} />
+            <Select placeholder = {0.00} options={options} className='myInputs added_space'  value = {tip} onChange={setTip} required/>
         </div>
         <br />
         {/* <button type='button' onClick={calculate}> Calculate .....</button> */}
