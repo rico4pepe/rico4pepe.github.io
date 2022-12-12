@@ -1,0 +1,90 @@
+.app{
+  display: grid;
+  place-items: center;
+  background-color: gray;
+
+}
+
+.container{
+  width: 100%;
+  diplay: flex;
+
+}
+
+.center-app {
+  margin-right: 25%;
+  margin-left: 25%;
+  background-color: gray;
+  text-align: center;
+}
+
+button{
+  width: 80%;
+  height: 40px;
+  background-color: #E4287C;
+  border-radius: 20px;
+  color: #D0D3D4;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.space_form_component{
+  display: flex;
+  height: 50px;
+  padding-top: 15px;
+ 
+}
+label{
+  display: block;
+  width: 40%;
+  font-size: 23px;
+}
+
+.added_space{
+  margin-bottom: 50px;
+}
+.myInputs{
+  height: 35px;
+  width: 55%;
+  font-size: 12px;
+  outline: 0;
+}
+
+.result{
+  width: 100%; 
+}
+
+.box {
+  height: 98%;
+  width: 49%;
+  margin-left: 1%;
+  justify-content: space-between;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.blue_color{
+  background-color: blue;
+}
+
+.red_color{
+  background-color: red;
+}
+
+
+.displayResult {
+  width: 80%;
+  height: 90px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+
+
+
+
+
