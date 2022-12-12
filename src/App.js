@@ -21,7 +21,7 @@ const calculate = () => {
   const totalBill = ((parseInt(bill)  * parseFloat(tip.value)) + parseInt(bill)).toFixed(2)
   const tipAmount =  (parseInt(bill) *  parseFloat(tip.value)).toFixed(2)
   const individualBill = (totalBill / people).toFixed(2)
-  const tipPerInd      =  (parseFloat(tip.value) / people).toFixed(2) 
+  const tipPerInd  =  (parseFloat(tip.value) / people).toFixed(2) 
   const result = {
     tb: totalBill,
     ta: tipAmount,
@@ -85,6 +85,7 @@ console.log(calculate().tb, calculate().ta, calculate().ib);
           <div className='displayResult'>
             <div className='box blue_color'>
             Tip per individual <br />
+            {isNaN(calculate().tp ) ? 'NGN 0.00' : 'NGN' + calculate().tp } 
             </div>
 
             <div className='box red_color'>
