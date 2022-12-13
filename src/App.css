@@ -1,14 +1,23 @@
-.app{
-  display: grid;
-  place-items: center;
-  background-color: lightgray;
 
-}
 
 .container{
   width: 100%;
-  /* display: flex; */
+    margin: auto;
+    height: 100vh;
 
+}
+
+.header {
+  color: gray;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
 }
 
 .center-app {
@@ -85,8 +94,19 @@ label {
   margin-left: 10%;
 }
 
+@media (max-width: 600px){
+  .container{
+    width: 100%;
+}
+.center-app{
+  width: 100%;
+  margin: auto;
+  height: 90%;
+  
+}
+}
 
-@media (max-width: 359px){
+/* @media (max-width: 359px){
   .container{
       width: 359px;
   }
@@ -152,4 +172,4 @@ label{
 
 
 
-
+ */

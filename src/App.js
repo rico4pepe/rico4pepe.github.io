@@ -47,7 +47,7 @@ console.log(calculate().tb, calculate().ta, calculate().ib);
 
     <div className = "container"> 
     <div className="center-app">
-        <h1>Tip Calculator</h1>
+        <p>Tip Calculator</p>
         <form>
           <div className = "space_form_component">
           <label > Bill Amount:</label>
