@@ -1,20 +1,20 @@
 .app{
   display: grid;
   place-items: center;
-  background-color: gray;
+  background-color: lightgray;
 
 }
 
 .container{
   width: 100%;
-  diplay: flex;
+  /* display: flex; */
 
 }
 
 .center-app {
   margin-right: 25%;
   margin-left: 25%;
-  background-color: gray;
+  background-color: lightgray;
   text-align: center;
 }
 
@@ -64,14 +64,15 @@ label{
   justify-content: space-between;
   border-radius: 5px;
   font-size: 14px;
+  color:white;
 }
 
 .blue_color{
-  background-color: blue;
+  background-color: gray;
 }
 
 .red_color{
-  background-color: red;
+  background-color: #E4287C;
 }
 
 

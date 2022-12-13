@@ -15,7 +15,7 @@ const options = [
   { value: 0.1, label: '(Just Okay (10 %))' },
   { value: 0.05, label: '(Bad Service (5 %))' },
   { value: 0.00, label: '(No Tip (0 %))' },
-];
+]; 
 
 const calculate = () => {
   const totalBill = ((parseInt(bill)  * parseFloat(tip.value)) + parseInt(bill)).toFixed(2)
